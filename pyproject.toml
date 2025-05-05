@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "jknife"
 version = "0.1.0"
 authors = [
-    {name = "Ryan O'Boyle", email = "your.email@example.com"},
+    {name = "Ryan O'Boyle", email = "layerdynamics@proton.me"},
 ]
 description = "Framework-agnostic Jackknife estimation utilities for statistical modeling"
 readme = "README.md"
@@ -56,8 +56,8 @@ all = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/jknife"
-"Bug Tracker" = "https://github.com/yourusername/jknife/issues"
+"Homepage" = "https://github.com/LayerDynamics/jknife"
+"Bug Tracker" = "https://github.com/LayerDynamics/jknife/issues"
 
 [tool.setuptools]
 packages = ["jknife"]
@@ -82,5 +82,5 @@ disallow_incomplete_defs = false
 minversion = "7.0"
 addopts = "--cov=jknife"
 testpaths = [
-    "jknife/src/tests",
+    "jknife/tests",
 ]

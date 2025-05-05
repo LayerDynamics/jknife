@@ -59,4 +59,4 @@ print(result.summary())
 
 ## License
 
-MIT License
+UNLICENSE
